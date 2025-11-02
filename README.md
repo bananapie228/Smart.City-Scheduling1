@@ -29,6 +29,43 @@ The datasets are generated with various graph sizes and structures. Each dataset
 
 Each dataset varies in density and includes both cyclic and acyclic examples.
 
+#### Example Datasets:
+1. **Small Dataset 1**:
+   - Nodes: 6
+   - Edges: 7
+   - Type: Acyclic
+   - Features: Linear DAG, no cycles.
+   
+2. **Small Dataset 2**:
+   - Nodes: 7
+   - Edges: 10
+   - Type: Cyclic
+   - Features: Simple cycle with one disconnected DAG component.
+   
+3. **Medium Dataset 1**:
+   - Nodes: 15
+   - Edges: 20
+   - Type: Acyclic
+   - Features: A mixture of sparse edges and isolated nodes.
+   
+4. **Medium Dataset 2**:
+   - Nodes: 18
+   - Edges: 28
+   - Type: Cyclic
+   - Features: Multiple SCCs with interdependencies.
+   
+5. **Large Dataset 1**:
+   - Nodes: 30
+   - Edges: 50
+   - Type: Acyclic
+   - Features: Dense DAG, large-scale scheduling tasks.
+   
+6. **Large Dataset 2**:
+   - Nodes: 40
+   - Edges: 80
+   - Type: Cyclic
+   - Features: Multiple cycles and long chains of dependencies.
+
 ## Setup and Installation
 
 To set up the project, follow these steps:
