@@ -1,0 +1,24 @@
+{
+  "description": "Medium mixed structure with several SCCs",
+  "nodes": 12,
+  "edges": [
+    {"from": 8, "to": 9, "weight": 5},
+    {"from": 9, "to": 10, "weight": 8},
+    {"from": 10, "to": 8, "weight": 2},
+    {"from": 5, "to": 6, "weight": 7},
+    {"from": 6, "to": 7, "weight": 6},
+    {"from": 7, "to": 8, "weight": 7},
+    {"from": 9, "to": 5, "weight": 7},
+    {"from": 0, "to": 2, "weight": 4},
+    {"from": 8, "to": 0, "weight": 3},
+    {"from": 3, "to": 1, "weight": 3},
+    {"from": 4, "to": 8, "weight": 9},
+    {"from": 4, "to": 0, "weight": 9},
+    {"from": 9, "to": 2, "weight": 8},
+    {"from": 1, "to": 5, "weight": 8},
+    {"from": 1, "to": 11, "weight": 5},
+    {"from": 11, "to": 6, "weight": 4},
+    {"from": 7, "to": 5, "weight": 1},
+    {"from": 11, "to": 5, "weight": 6}
+  ]
+}
